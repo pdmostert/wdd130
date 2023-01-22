@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    background-color: pink;
+}
+img{
+    width: 10%;
+}
+ol{
+    margin:10px auto;
+    width: 20%;
+    text-align: left;
+    font-weight: bold;
+}
+li{
+    margin: 10px;
+}
+h1{
+font-size: 2.5em;
+font-weight: bold;
+}
+h1:hover{
+    color: black;
+}
+strong{
+    font-size: 1.5em;
+}
+.first{
+    color: white;
+}
+#quote {
+    margin: 20px auto;
+    width: 330px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+footer p{
+    margin: 10px auto;
+    width: 330px;
+    text-align: center;
+}
+
