@@ -60,8 +60,8 @@ main section {
 }
 .book,
 .join {
-  background-color: #f16524;
-  color: white;
+  background-color:#182533;
+  color: #f16524;
   text-decoration: none;
 }
 .book:hover,
