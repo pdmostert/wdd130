@@ -1,0 +1,18 @@
+body{
+    max-width: 1600px;
+    margin:0px auto;
+}
+.background{
+    background-color: rgb(114, 112, 112);
+    margin-top:-4px;
+    padding:0 0 0 90px ;
+}
+.background img{
+    width:300px;
+    border:15px solid rgb(56, 55, 55);
+    border-radius: 50%;
+    margin: 4em 4em;
+}
+.head img{
+    width:100%;
+}

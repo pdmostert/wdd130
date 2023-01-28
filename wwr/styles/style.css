@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Roboto&display=swap");
+
 #content {
   max-width: 1600px;
   margin: 0 auto;
@@ -10,6 +12,10 @@
 body {
   background-color: white;
   color: #385779;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
 header {
   background-color: #182533;
@@ -19,6 +25,7 @@ nav a {
   text-align: center;
   color: #f16524;
   text-decoration: none;
+  padding:35px
 }
 nav a:hover {
   background-color: #f16524;
@@ -28,6 +35,11 @@ footer {
   background-color: #385779;
   color: white;
   font-size: 1.2em;
+  padding: 25px 50px;
+  margin-top:200px ;
+}
+footer .social img{
+  padding-top: 15px;
 }
 footer a {
   color: white;
@@ -36,18 +48,21 @@ footer a {
 footer a:hover {
   color: #f16524;
 }
-footer p a:hover{
-    text-decoration: underline;
+footer p a:hover {
+  text-decoration: underline;
 }
 main section {
   text-align: center;
+}
+main section img{
+  box-sizing: border-box;
 }
 #hero-msg,
 #hero-msg h4 {
   text-align: center;
 }
-#hero-img{
-    width: 100%;
+#hero-img {
+  width: 100%;
 }
 .button-box {
   text-align: center;
@@ -57,12 +72,17 @@ main section {
 }
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 .book,
 .join {
-  background-color:#182533;
+  background-color: #182533;
   color: #f16524;
   text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top:50px;
+  border-radius: 5px;
 }
 .book:hover,
 .join:hover {
@@ -72,16 +92,41 @@ main section {
 .msg {
   background-color: #385779;
   color: white;
+  line-height: 1.5em;
+  padding: 35px;
 }
 .msg h2 {
-  color:white;
+  color: white;
+  font-family: "Cinzel Decorative", Georgia, serif;
 }
 .msg p {
-  color:white;
+  color: white;
+  font-size: 0.8em;
+  padding-bottom: 15px;
 }
 .home-title {
   color: #385779;
+  font-family: "Cinzel Decorative", Georgia, serif;
+  font-size: 2em;
+  margin-top: 10px;
 }
 h4 {
   color: #385779;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Cinzel Decorative", Georgia, serif;
+}
+#logo_link{
+  padding-top: 5px;
+}
+.rivers-card, .camping-card, .rapids-card{
+  margin: 200px 0;
+}
+.card-img{
+  border: 10px solid black;
 }
