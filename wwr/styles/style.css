@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Roboto&display=swap");
 
 #content {
-  max-width: 1600px;
   margin: 0 auto;
+  max-width: 1600px;
 }
 
 #background {
-  height: 725px;
   background-color: #385779;
   color: white;
+  height: 725px;
 }
 
 body {
@@ -26,10 +26,10 @@ header {
 }
 
 nav a {
-  text-align: center;
   color: #f16524;
-  text-decoration: none;
   padding: 35px;
+  text-align: center;
+  text-decoration: none;
 }
 
 nav a:hover {
@@ -41,8 +41,8 @@ footer {
   background-color: #385779;
   color: white;
   font-size: 1.2em;
-  padding: 25px 50px;
   margin-top: 200px;
+  padding: 25px 50px;
 }
 
 footer .social img {
@@ -88,19 +88,19 @@ main section img {
 }
 
 .icon {
-  width: 80px;
   padding-top: 10px;
+  width: 80px;
 }
 
 .book,
 .join {
   background-color: #182533;
-  color: #f16524;
-  text-decoration: none;
-  font-size: 18px;
-  padding: 15px 30px;
-  margin-top: 50px;
   border-radius: 5px;
+  color: #f16524;
+  font-size: 18px;
+  margin-top: 50px;
+  padding: 15px 30px;
+  text-decoration: none;
 }
 
 .book:hover,
