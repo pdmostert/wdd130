@@ -4,11 +4,13 @@
   max-width: 1600px;
   margin: 0 auto;
 }
+
 #background {
   height: 725px;
   background-color: #385779;
   color: white;
 }
+
 body {
   background-color: white;
   color: #385779;
@@ -17,63 +19,79 @@ body {
   margin: 0;
   padding: 0;
 }
+
 header {
   background-color: #182533;
   color: #f16524;
 }
+
 nav a {
   text-align: center;
   color: #f16524;
   text-decoration: none;
-  padding:35px
+  padding: 35px;
 }
+
 nav a:hover {
   background-color: #f16524;
   color: white;
 }
+
 footer {
   background-color: #385779;
   color: white;
   font-size: 1.2em;
   padding: 25px 50px;
-  margin-top:200px ;
+  margin-top: 200px;
 }
-footer .social img{
+
+footer .social img {
   padding-top: 15px;
 }
+
 footer a {
   color: white;
   text-decoration: none;
 }
+
 footer a:hover {
   color: #f16524;
 }
+
 footer p a:hover {
   text-decoration: underline;
 }
+
 main section {
   text-align: center;
 }
-main section img{
+
+main section img {
   box-sizing: border-box;
 }
+
 #hero-msg,
 #hero-msg h4 {
   text-align: center;
 }
+
 #hero-img {
   width: 100%;
 }
+
 .button-box {
   text-align: center;
 }
+
 .logo {
   width: 80px;
 }
+
 .icon {
   width: 80px;
   padding-top: 10px;
 }
+
 .book,
 .join {
   background-color: #182533;
@@ -81,38 +99,45 @@ main section img{
   text-decoration: none;
   font-size: 18px;
   padding: 15px 30px;
-  margin-top:50px;
+  margin-top: 50px;
   border-radius: 5px;
 }
+
 .book:hover,
 .join:hover {
   background-color: #f16524;
   color: #182533;
 }
+
 .msg {
   background-color: #385779;
   color: white;
   line-height: 1.5em;
   padding: 35px;
 }
+
 .msg h2 {
   color: white;
   font-family: "Cinzel Decorative", Georgia, serif;
 }
+
 .msg p {
   color: white;
   font-size: 0.8em;
   padding-bottom: 15px;
 }
+
 .home-title {
   color: #385779;
   font-family: "Cinzel Decorative", Georgia, serif;
   font-size: 2em;
   margin-top: 10px;
 }
+
 h4 {
   color: #385779;
 }
+
 h1,
 h2,
 h3,
@@ -121,12 +146,17 @@ h5,
 h6 {
   font-family: "Cinzel Decorative", Georgia, serif;
 }
-#logo_link{
+
+#logo_link {
   padding-top: 5px;
 }
-.rivers-card, .camping-card, .rapids-card{
+
+.rivers-card,
+.camping-card,
+.rapids-card {
   margin: 200px 0;
 }
-.card-img{
+
+.card-img {
   border: 10px solid black;
 }
