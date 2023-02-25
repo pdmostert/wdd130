@@ -78,6 +78,8 @@ main section {
   text-align: center;
 }
 
+
+
 main section img {
   box-sizing: border-box;
 }
@@ -241,13 +243,16 @@ h6 {
 
 /* faq page elements */
 
+
 .faq-grid{
   display: grid;
   grid-template-columns: 25px repeat(14,1fr) 25px;
   padding: 20px 0px 20px 0px;
+  text-align: center;
 }
 .faq-grid img{
   max-width: 500px;
+  box-sizing: border-box;
 }
 .question-box{
   background-color: #385779;
