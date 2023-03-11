@@ -7,43 +7,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyCNC | Planning</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js"></script>
 </head>
 
 <body>
     <nav id="mySidenav" class="sidenav">
-        <a href="#" class="closebtn">&times;</a>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="index.html">Home</a>
         <a href="planning.html">Planning</a>
         <a href="thebuild.html">The Build</a>
     </nav>
     <div id="main">
         <header>
-            <div class="menu-btn">&#9776;</div>
-            <div>
-                <h1>MyCNC - Planning</h1>
-                <img src="images/logo.png" alt="logo">
-            </div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            <h1>MyCNC - Planning</h1>
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
         </header>
-        <main>
+        <main class="planning">
             <section>
+                <img src="images/gantry-plate.jpg" alt="gantry plates">
                 <h2>Research</h2>
                 <p>Researching information from the internet and YouTube is an excellent way to learn about building
-                    your own CNC for woodworking. </p>
-                <img src="images/gantry-plate.jpg" alt="gantry plates">
+                    your own CNC for woodworking. There are many functional designs to choose from some include a fixed gantry, others a movable gantry. With a fixed gantry bed will move. 
+                    Part of your planning will need to include the hight of the gantry above the bed.
+                    All these factors will design how ridged your CNC will be at the end. 
+                </p>
                 <img src="images/z-axis-full.jpg" alt="z axis">
                 <p>The first step is to identify reliable sources of information such as woodworking forums, CNC
                     enthusiast websites, and YouTube channels dedicated to DIY CNC projects. These sources provide
                     valuable information on the different types of CNC machines available, the required components and
-                    tools, and step-by-step instructions on how to build them.</p>
+                    tools, and step-by-step instructions on how to build them.
+                    If you have a keen eye and look tough build images on sites like this one you can gain a wealth of information.
+
+                </p>
             </section>
             <section>
+                <img src="images/y-axis.jpg" alt="y axis">
                 <h2>Design</h2>
                 <p>Once you have gathered enough information, it is essential to analyze and compare the different
                     options available to determine which one is best suited for your specific needs. This includes
                     considering factors such as the size and type of wood you will be working with, the precision
                     required for your projects, and your budget. It is also crucial to have a good understanding of the
                     different types of CNC software available, as this will be critical in operating your machine. </p>
-                <img src="images/y-axis.jpg" alt="y axis">
                 <img src="images/jig.jpg" alt="image of jig">
                 <p>Creating your own jig for working with aluminum extrusions can be a great way to ensure precision
                     and accuracy during construction. The first step is to design the jig according to the

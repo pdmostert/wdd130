@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Roboto&display=swap");
+
+body {
+  max-width: 1600px;
+  color: #274c77;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 22px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+main {
+  margin: auto auto;
+  width: 80%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+}
+
+.home section {
+  background-color: #fff9f0;
+  border: 1px solid black;
+  margin-top: 30px;
+  padding: 30px;
+  min-height: 350px;
+}
+
+.home section figure {
+  float: right;
+  width: 400px;
+}
+.home section img {
+  border: 10px solid black;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 80px 1fr 100px;
+  justify-items: center;
+  align-items: center;
+  background-color: #274c77;
+  color: white;
+}
+header img {
+  height: 80px;
+  border-radius: 10px;
+}
+header a {
+  margin-right: 20px;
+}
+.hero-box {
+  border: 5px solid black;
+  margin-top: 20px;
+  height: 300px;
+}
+.hero-box img {
+  object-fit: none;
+  height: 300px;
+}
+
+/* Planning CSS */
+
+.planning section {
+  background-color: #fff9f0;
+  border: 1px solid black;
+  margin-top: 30px;
+  padding: 30px;
+  min-height: 600px;
+}
+.planning section img {
+  width: 400px;
+}
+.planning section img:nth-of-type(1) {
+  float: right;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+.planning section img:nth-of-type(2) {
+  float: left;
+  padding-right: 30px;
+}
+
+/* The Build CSS */
+
+.thebuild section {
+  margin-top: 30px;
+  background-color: #fff9f0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+
+.thebuild section div{
+  grid-row: 1/3;
+  padding: 10px 0px 10px 30px ;
+}
+
+.thebuild img{
+  justify-self: center;
+  width: 500px;
+  margin: 30px;
+}
+
+.card{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: left;
+}
+.card img{
+  width: 150px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.thebuild aside{
+  padding: 30px;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+/* Footer  */
+footer {
+  background-color: #274c77;
+  color: white;
+  font-size: 1.2em;
+  margin-top: 150px;
+  padding: 15px 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social img {
+  width: auto;
+  height: 50px;
+  padding-top: 15px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+/* footer a:hover {
+    color: #f16524;
+  }
+  
+  footer p a:hover {
+    text-decoration: underline;
+  } */
+
+/* Side Nav Menu */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #c2c2c1;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #274c77;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+  background-color: #6096ba;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+
+/* @media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+} */

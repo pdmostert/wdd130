@@ -7,28 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyCNC | Home</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js"></script>
 </head>
 
 <body>
     <nav id="mySidenav" class="sidenav">
-        <a href="#" class="closebtn">&times;</a>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="index.html">Home</a>
         <a href="planning.html">Planning</a>
         <a href="thebuild.html">The Build</a>
     </nav>
     <div id="main">
         <header>
-            <div class="menu-btn">&#9776;</div>
-            <div>
-                <h1>MyCNC - Home</h1>
-                <img src="images/logo.png" alt="logo">
-            </div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            <h1>MyCNC - Home</h1>
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
         </header>
-        <main >
+        <main class="home" >
             <div class="hero-box">
                 <img src="images/hero.jpg" alt="Planned CNC Image">
             </div>
             <section>
+                <figure>
+                    <img src="images/ball-screw-connector.jpg" alt="MyCNC component">
+                </figure>
                 <h2>What is an CNC</h2>
                 <p>I was inspired to build my own Computer Numerical Control (CNC)machine, CNC is a technology that has
                     revolutionized the manufacturing industry, allowing for precision and automation in the production of
@@ -38,20 +40,17 @@
                     and woodworking to 3D printing and laser cutting. By using CNC technology, manufacturers can achieve
                     high levels of accuracy and consistency while reducing the need for manual labour, resulting in faster
                     production times and lower costs.</p>
-                <figure>
-                    <img src="images/ball-screw-connector.jpg" alt="MyCNC component">
-                </figure>
             </section>
             <section>
+                <figure>
+                    <img src="images/Progress.jpg" alt="Progress for MyCNC">
+                </figure>
                 <h2>My CNC</h2>
     
                 <p>Overall, building your own CNC for woodworking requires extensive research and attention to detail.
                     However, the information available online makes it possible for even those with limited experience to
                     take on this exciting DIY project. The following steps guided me along the way to ensure I had a working model that best suited by needs: Planning, Research, Design, Sourcing and Building.
                 </p>
-                <figure>
-                    <img src="images/Progress.jpg" alt="Progress for MyCNC">
-                </figure>
             </section>
         </main>
         <footer>
@@ -71,5 +70,6 @@
     
         </footer>
     </div>
+
 </body>
 </html>
