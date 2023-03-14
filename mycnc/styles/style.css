@@ -8,8 +8,8 @@ body {
   margin: 0 auto;
   padding: 0;
 }
-.hamburger{
-  size: 30px;
+.hamburger {
+  font-size: 40px;
   cursor: pointer;
 }
 
@@ -105,31 +105,30 @@ header a {
   column-gap: 20px;
 }
 
-.thebuild section div{
+.thebuild section div {
   grid-row: 1/3;
-  padding: 10px 0px 10px 30px ;
+  padding: 10px 0px 10px 30px;
 }
 
-.thebuild img{
+.thebuild img {
   justify-self: center;
   width: 500px;
   margin: 30px;
 }
 
-.card{
+.card {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-items: left;
 }
-.card img{
+.card img {
   width: 150px;
   margin-top: 0;
   margin-bottom: 0;
 }
 
-
-.thebuild aside{
+.thebuild aside {
   padding: 30px;
   grid-column: 2/3;
   grid-row: 2/3;
