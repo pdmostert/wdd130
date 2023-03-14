@@ -8,6 +8,10 @@ body {
   margin: 0 auto;
   padding: 0;
 }
+.hamburger{
+  size: 30px;
+  cursor: pointer;
+}
 
 main {
   margin: auto auto;

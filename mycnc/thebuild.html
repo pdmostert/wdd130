@@ -7,140 +7,146 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyCNC | The Build</title>
     <link rel="stylesheet" href="styles/style.css">
-    <script src="scripts/script.js"></script>
 </head>
 
 <body>
+    <div id="main"></div>
+    <header>
+        <span class="hamburger" onclick="openNav()">&#9776;</span>
+        <h1>MyCNC - The Build</h1>
+        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+    </header>
+
+    <main class="thebuild">
+        <section>
+            <div>
+                <h2>Sourcing</h2>
+                <p>Utilizing local engineering companies to manufacture the aluminium plates for the X and Y axis of
+                    the
+                    gantry and Z axis can be an excellent way to ensure the quality of the components while
+                    supporting
+                    local businesses. The first step is to identify engineering companies in your area that
+                    specialize
+                    in the manufacturing of precision parts and have experience with CNC machining. Once you have
+                    identified potential companies, it is important to provide them with detailed specifications and
+                    drawings of the required parts, as well as any necessary materials.
+                </p>
+                <p>
+                    Working with local engineering companies can provide several benefits, including the ability to
+                    visit the manufacturing facility to inspect the progress and quality of the parts as they are
+                    being
+                    made. This can help identify any potential issues early on, allowing for adjustments to be made
+                    before completion. Additionally, local companies may be able to offer personalized service,
+                    including consultation on design modifications or material selection.
+                </p>
+                <p>
+                    Overall, utilizing local engineering companies to manufacture precision parts for your CNC can
+                    be an
+                    effective way to ensure the quality of the components while supporting local businesses. By
+                    working
+                    closely with these companies and providing detailed specifications, you can ensure that the
+                    parts
+                    meet your exact needs and specifications.
+                </p>
+            </div>
+            <img src="images/assembly1.jpg" alt="leg assembly">
+            <aside>
+                <div class="card">
+                    <img src="images/stepper-motor.jpg" alt="stepper motor">
+                    <a href="images/stepper-motor.jpg" target="_blank">Stepper motor for driving cnc</a>
+                </div>
+                <div class="card">
+                    <img src="images/controller.jpg" alt="cnc controller">
+                    <a href="images/controller.jpg" target="_blank">CNC Controller that manages movement of cnc</a>
+                </div>
+                <div class="card">
+                    <img src="images/limit.jpg" alt="limit switch">
+                    <a href="images/limit.jpg" target="_blank">Limit switch for safety stop</a>
+                </div>
+            </aside>
+        </section>
+        <section>
+            <div>
+                <h2>Assembly</h2>
+                <p>After selecting the best design and components for your CNC, the next step is to start building
+                    it.
+                    This involves assembling the frame, installing the motors and electronics, and wiring the
+                    machine.
+                    Following the detailed instructions provided by your chosen resources is key to ensuring that
+                    the
+                    CNC is built correctly, and functions as intended.
+                </p>
+                <p>
+                    Firstly I started with the legs and the sides as they was the basis, for the rest of he components
+                    to connect to. I ordered the aluminum extrusion cut to length which saved me a lot of time.
+                    I still had to drill the connecting holes for the fasteners using the jig. This was simple and
+                    effective. Once the legs and sides were connected, I moved on to the cross members to secure the
+                    two sides to each other.
+                </p>
+                <p>
+                    At this point is was time to level the feed sides and ensure all runners were parallel.
+                    This was done with a simple crisscross with string between the four corners and a level.
+                    It seems simple but it is so affective and quick to complete.
+                    It is very important that the base is level at this point as everything we put on top will require
+                    precision.
+                </p>
+                <p>
+                    Next step was to drop on a Medium Fibre Density (MDF) board, this would become the spoiler board
+                    that objected are connected to for machining. This also gave me surface to work on.
+                    After connecting all the accessories such as linear rails, ball screws, motors, the gantry was
+                    places on top
+                    and screwed in to place. Connecting the motors to the drivers and controller was the last step of
+                    assembly.
+                </p>
+                <p>
+                    First project was to use the CNC to drill about sixty holes that will connect the spoiler board to
+                    the frame.
+                </p>
+            </div>
+            <img src="images/assembly2.jpg" alt="gantry assembly">
+            <aside>
+                <div class="card">
+                    <img src="images/legs.jpg" alt="leg assembly">
+                    <a href="images/legs.jpg" target="_blank">Assembling legs</a>
+                </div>
+                <div class="card">
+                    <img src="images/leveling.jpg" alt="leveling the cnc">
+                    <a href="images/leveling.jpg" target="_blank">Leveling CNC sides</a>
+                </div>
+                <div class="card">
+                    <img src="images/drill-holes-for-bed.jpg" alt="cnc drilling holes">
+                    <a href="images/drill-holes-for-bed.jpg" target="_blank">CNC used to drill holes for spoiler
+                        board</a>
+                </div>
+            </aside>
+        </section>
+
+    </main>
+    
+    <footer>
+        <p>MyCNC &copy; 2023 - Peter Mostert</p>
+        <p><a href="site-plan.html">Site Plan</a></p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+
+    </footer>
+
     <nav id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="index.html">Home</a>
         <a href="planning.html">Planning</a>
         <a href="thebuild.html">The Build</a>
     </nav>
-    <div id="main">
-        <header>
-            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-            <h1>MyCNC - The Build</h1>
-            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
-        </header>
-        <main class="thebuild">
-            <section>
-                <div>
-                    <h2>Sourcing</h2>
-                    <p>Utilizing local engineering companies to manufacture the aluminium plates for the X and Y axis of
-                        the
-                        gantry and Z axis can be an excellent way to ensure the quality of the components while
-                        supporting
-                        local businesses. The first step is to identify engineering companies in your area that
-                        specialize
-                        in the manufacturing of precision parts and have experience with CNC machining. Once you have
-                        identified potential companies, it is important to provide them with detailed specifications and
-                        drawings of the required parts, as well as any necessary materials.
-                    </p>
-                    <p>
-                        Working with local engineering companies can provide several benefits, including the ability to
-                        visit the manufacturing facility to inspect the progress and quality of the parts as they are
-                        being
-                        made. This can help identify any potential issues early on, allowing for adjustments to be made
-                        before completion. Additionally, local companies may be able to offer personalized service,
-                        including consultation on design modifications or material selection.
-                    </p>
-                    <p>
-                        Overall, utilizing local engineering companies to manufacture precision parts for your CNC can
-                        be an
-                        effective way to ensure the quality of the components while supporting local businesses. By
-                        working
-                        closely with these companies and providing detailed specifications, you can ensure that the
-                        parts
-                        meet your exact needs and specifications.
-                    </p>
-                </div>
-                <img src="images/assembly1.jpg" alt="leg assembly">
-                <aside>
-                    <div class="card">
-                        <img src="images/stepper-motor.jpg" alt="stepper motor">
-                        <a href="images/stepper-motor.jpg" target="_blank">Stepper motor for driving cnc</a>
-                    </div>
-                    <div class="card">
-                        <img src="images/controller.jpg" alt="cnc controller">
-                        <a href="images/controller.jpg" target="_blank">CNC Controller that manages movement of cnc</a>
-                    </div>
-                    <div class="card">
-                        <img src="images/limit.jpg" alt="limit switch">
-                        <a href="images/limit.jpg" target="_blank">Limit switch for safety stop</a>
-                    </div>
-                </aside>
-            </section>
-            <section>
-                <div>
-                    <h2>Assembly</h2>
-                    <p>After selecting the best design and components for your CNC, the next step is to start building
-                        it.
-                        This involves assembling the frame, installing the motors and electronics, and wiring the
-                        machine.
-                        Following the detailed instructions provided by your chosen resources is key to ensuring that
-                        the
-                        CNC is built correctly, and functions as intended.
-                    </p>
-                    <p>
-                        Firstly I started with the legs and the sides as they was the basis, for the rest of he components
-                        to connect to. I ordered the aluminum extrusion cut to length which saved me a lot of time. 
-                        I still had to drill the connecting holes for the fasteners using the jig. This was simple and 
-                        effective. Once the legs and sides were connected, I moved on to the cross members to secure the 
-                        two sides to each other.
-                    </p>
-                    <p>
-                        At this point is was time to level the feed sides and ensure all runners were parallel. 
-                        This was done with a simple crisscross with string between the four corners and a level. 
-                        It seems simple but it is so affective and quick to complete. 
-                        It is very important that the base is level at this point as everything we put on top will require precision.
-                    </p>
-                    <p>
-                        Next step was to drop on a Medium Fibre Density (MDF) board, this would become the spoiler board
-                        that objected are connected to for machining. This also gave me surface to work on.
-                        After connecting all the accessories such as linear rails, ball screws, motors, the gantry was places on top
-                        and screwed in to place. Connecting the motors to the drivers and controller was the last step of assembly.
-                    </p>
-                    <p>
-                        First project was to use the CNC to drill about sixty holes that will connect the spoiler board to the frame.
-                    </p>
-                </div>
-                <img src="images/assembly2.jpg" alt="gantry assembly">
-                <aside>
-                    <div class="card">
-                        <img src="images/legs.jpg" alt="leg assembly">
-                        <a href="images/legs.jpg" target="_blank">Assembling legs</a>
-                    </div>
-                    <div class="card">
-                        <img src="images/leveling.jpg" alt="leveling the cnc">
-                        <a href="images/leveling.jpg" target="_blank">Leveling CNC sides</a>
-                    </div>
-                    <div class="card">
-                        <img src="images/drill-holes-for-bed.jpg" alt="cnc drilling holes">
-                        <a href="images/drill-holes-for-bed.jpg" target="_blank">CNC used to drill holes for spoiler
-                            board</a>
-                    </div>
-                </aside>
-            </section>
-
-        </main>
-        <footer>
-            <p>MyCNC &copy; 2023 - Peter Mostert</p>
-            <p><a href="site-plan.html">Site Plan</a></p>
-            <div class="social">
-                <a href="https://facebook.com" target="_blank">
-                    <img src="images/facebook.png" alt="fb icon">
-                </a>
-                <a href="https://twitter.com" target="_blank">
-                    <img src="images/twitter.png" alt="twitter icon">
-                </a>
-                <a href="https://instagram.com" target="_blank">
-                    <img src="images/instagram.png" alt="instagram icon">
-                </a>
-            </div>
-
-        </footer>
-    </div>
+    <script src="scripts/script.js"></script>
 </body>
 
 </html>
