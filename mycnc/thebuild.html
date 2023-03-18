@@ -49,18 +49,18 @@
                     meet your exact needs and specifications.
                 </p>
             </div>
-            <img src="images/assembly1.jpg" alt="leg assembly">
+            <img src="images/assembly1.jpg" alt="Leg Assembly with some Assistance" onclick="openModal(this);">
             <aside>
                 <div class="card">
-                    <img src="images/stepper-motor.jpg" alt="stepper motor">
+                    <img src="images/stepper-motor.jpg" alt="Stepper Motor" onclick="openModal(this);">
                     <a href="images/stepper-motor.jpg" target="_blank">Stepper motor for driving cnc</a>
                 </div>
                 <div class="card">
-                    <img src="images/controller.jpg" alt="cnc controller">
+                    <img src="images/controller.jpg" alt="CNC Controller" onclick="openModal(this);">
                     <a href="images/controller.jpg" target="_blank">CNC Controller that manages movement of cnc</a>
                 </div>
                 <div class="card">
-                    <img src="images/limit.jpg" alt="limit switch">
+                    <img src="images/limit.jpg" alt="Limit Switch" onclick="openModal(this);">
                     <a href="images/limit.jpg" target="_blank">Limit switch for safety stop</a>
                 </div>
             </aside>
@@ -103,18 +103,18 @@
                     the frame.
                 </p>
             </div>
-            <img src="images/assembly2.jpg" alt="gantry assembly">
+            <img src="images/assembly2.jpg" alt="Gantry Assembly" onclick="openModal(this);">
             <aside>
                 <div class="card">
-                    <img src="images/legs.jpg" alt="leg assembly">
+                    <img src="images/legs.jpg" alt="Leg Assembly" onclick="openModal(this);">
                     <a href="images/legs.jpg" target="_blank">Assembling legs</a>
                 </div>
                 <div class="card">
-                    <img src="images/leveling.jpg" alt="leveling the cnc">
+                    <img src="images/leveling.jpg" alt="Leveling the CNC" onclick="openModal(this);">
                     <a href="images/leveling.jpg" target="_blank">Leveling CNC sides</a>
                 </div>
                 <div class="card">
-                    <img src="images/drill-holes-for-bed.jpg" alt="cnc drilling holes">
+                    <img src="images/drill-holes-for-bed.jpg" alt="CNC Drilling Holes" onclick="openModal(this);">
                     <a href="images/drill-holes-for-bed.jpg" target="_blank">CNC used to drill holes for spoiler
                         board</a>
                 </div>
@@ -122,7 +122,7 @@
         </section>
 
     </main>
-    
+
     <footer>
         <p>MyCNC &copy; 2023 - Peter Mostert</p>
         <p><a href="site-plan.html">Site Plan</a></p>
@@ -146,6 +146,20 @@
         <a href="planning.html">Planning</a>
         <a href="thebuild.html">The Build</a>
     </nav>
+    
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+        
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="img01">
+        
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+    </div>
+    
     <script src="scripts/script.js"></script>
 </body>
 
