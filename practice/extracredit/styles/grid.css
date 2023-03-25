@@ -97,12 +97,12 @@ fieldset>div {
 
 label {
     grid-column: 1/2;
-    align-self: right;
+    text-align: right;
 }
 
 input {
     grid-column: 2/3;
-    align-self: left;
+    text-align: left;
     width: 100%;
 }
 
